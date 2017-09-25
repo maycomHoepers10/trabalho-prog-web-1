@@ -95,10 +95,14 @@ a{
 .footer{
     background-color: red;
     color: white;
-    margin-top: 10px;
     width:100%;
-    padding: 20px;
     text-align: center;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:60px;
+    padding-top: 10px;
+    width:100%;
 }
 
 table{
@@ -115,7 +119,7 @@ table thead{
 }
 
 table tr:nth-child(even) {
-    background-color: #000661;
+    background-color: black;
     color: #FFFFFF;
 }
 
@@ -133,14 +137,4 @@ table tr:nth-child(odd) {
 }
 .ex_lista ul li{
     display: inline;
-}
-
-.chat{
-    position: fixed;
-    right: 20px;
-    bottom: 20px;
-    padding: 10px;
-    color: #FFFFFF;
-    background-color: #082A3F;
-    border-radius: 20px;
 }
