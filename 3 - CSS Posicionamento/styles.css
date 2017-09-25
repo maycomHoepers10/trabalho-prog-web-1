@@ -15,6 +15,10 @@ a{
     color: black;
 }
 
+.center {
+    text-align: center;
+}
+
 /* Coloca a imagem do logo a esquerda */
 .header img{
     float: left;
@@ -32,7 +36,7 @@ a{
 /* Configura o menu horizontal */
 .menu{
     margin: auto;
-    background-color: #082A3F;
+    background-color: red;
     border-radius: 4px;
 }
 
@@ -63,7 +67,8 @@ a{
 .home .painel_home{
     width: 260px;
     float: left;
-    background-color: #A3DCFF;
+    background-color: black;
+    color: white;
     margin-left: 10px;
     padding: 15px;
     border-radius: 5px;
@@ -81,21 +86,24 @@ a{
 */
 
 .home .painel_home h2{
-    color: #045F9B;
+    color: red;
     margin: 2px;
 
 }
 /* fim paineis home */
 
 .footer{
-    background-color: #082A3F;
-    color: #AAAAAA;
+    background-color: red;
+    color: white;
     margin-top: 10px;
+    width:100%;
     padding: 20px;
+    text-align: center;
 }
 
 table{
-    color: #1e3c6b;
+    align:center;
+    color: red;
 }
 
 table tr td{
