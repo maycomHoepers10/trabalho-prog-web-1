@@ -1,0 +1,170 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 900px;
+    margin: auto;
+}
+
+h1{
+    font-size: 30px;
+    color: #045F9B;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Coloca a imagem do logo a esquerda */
+.header img{
+    float: left;
+    margin-right: 20px;
+    height: 100px;
+}
+
+.header h1{
+    font-size: 24px;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+
+/* Configura o menu horizontal */
+.menu{
+    margin: auto;
+    background-color: red;
+    border-radius: 4px;
+}
+
+.menu ul{
+    padding: 8px;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+
+/* fim menu */
+
+/* Configuração dos paineis da Home */
+
+.home .painel_home{
+    width: 260px;
+    float: left;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/*
+.home .painel_home{
+    width: 270px;
+    float: left;
+    background-color: #8ED2FC;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+*/
+
+.home .painel_home h2{
+    color: red;
+    margin: 2px;
+
+}
+/* fim paineis home */
+
+.footer{
+    background-color: red;
+    color: white;
+    width:100%;
+    text-align: center;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:60px;
+    padding-top: 10px;
+    width:100%;
+}
+
+table{
+    align: center;
+    color: red;
+}
+
+table tr td{
+    padding: 8px;
+}
+
+table thead{
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    /* background-color: black;
+    color: #FFFFFF;*/
+}
+
+table tr .header {
+    background-color: black;
+    text-align: center;
+}
+
+table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.ex_lista {
+    width: 600px;
+    margin: auto;
+}
+
+.ex_lista ul{
+    margin-left: 0px;
+}
+.ex_lista ul li{
+    display: inline;
+}
+
+#container-img{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 250px;
+    background-image: url("img-fans.jpg");
+    background-position-x: 20px;
+    background-position-y: -80px;
+    border-radius: 15px;
+    box-shadow: 1px 4px 2px;
+}
+
+#container-img label{
+    position: absolute;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0, 0.6) ;
+    bottom: 0px;
+    width: 100%;
+    border-bottom-left-radius: 15px; 
+    border-bottom-right-radius: 15px;
+}
