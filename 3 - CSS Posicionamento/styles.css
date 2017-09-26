@@ -106,7 +106,7 @@ a{
 }
 
 table{
-    align:center;
+    align: center;
     color: red;
 }
 
@@ -119,8 +119,13 @@ table thead{
 }
 
 table tr:nth-child(even) {
+    /* background-color: black;
+    color: #FFFFFF;*/
+}
+
+table tr .header {
     background-color: black;
-    color: #FFFFFF;
+    text-align: center;
 }
 
 table tr:nth-child(odd) {
